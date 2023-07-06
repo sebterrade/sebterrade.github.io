@@ -155,8 +155,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 300;
-		color: #666;
+		font-weight: 700;
 	}
 
 	em, i {
@@ -211,6 +210,16 @@ input, select, textarea {
 	}
 
 /* Container */
+	.image-container {
+		text-align: center;
+	}
+
+	.image-container img {
+		width: 800px !important;
+		height: 500px !important;
+		display: inline-block;
+		margin: 0 auto;
+	}
 
 	.container {
 		margin: 0 auto;
