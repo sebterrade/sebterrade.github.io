@@ -1,16 +1,12 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Download, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const Index = () => {
-  return (
-    <div className="space-y-16">
+  return <div className="space-y-16">
       {/* Hero */}
       <section className="space-y-6 pt-8">
         <p className="font-mono text-sm text-primary">Hi, I'm</p>
-        <h1 className="text-4xl font-bold leading-tight sm:text-5xl">
-          [Your Name]
-        </h1>
+        <h1 className="text-4xl font-bold leading-tight sm:text-5xl">Sebastien</h1>
         <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
           New grad software engineer passionate about building intelligent systems 
           that solve real-world problems. I combine strong engineering fundamentals 
@@ -44,31 +40,19 @@ const Index = () => {
           </Link>
         </div>
         <div className="space-y-4">
-          {[
-            {
-              title: "OmniCast",
-              tag: "AI / Conversational",
-              description:
-                "AI-powered conversational platform enabling natural multi-turn dialogue with context-aware responses and intelligent routing.",
-            },
-            {
-              title: "GraphRAG for Clinical Guidelines",
-              tag: "AI / Healthcare",
-              description:
-                "Retrieval-augmented generation system leveraging graph-based context to surface accurate, evidence-backed clinical recommendations.",
-            },
-            {
-              title: "Stock Market Email Newsletter",
-              tag: "Automation / Finance",
-              description:
-                "Automated market summary and insights system delivering curated financial analysis directly to subscribers' inboxes.",
-            },
-          ].map((project) => (
-            <Link
-              key={project.title}
-              to="/projects"
-              className="group block rounded-lg border border-border bg-card p-6 transition-colors hover:border-primary/30"
-            >
+          {[{
+          title: "OmniCast",
+          tag: "AI / Conversational",
+          description: "AI-powered conversational platform enabling natural multi-turn dialogue with context-aware responses and intelligent routing."
+        }, {
+          title: "GraphRAG for Clinical Guidelines",
+          tag: "AI / Healthcare",
+          description: "Retrieval-augmented generation system leveraging graph-based context to surface accurate, evidence-backed clinical recommendations."
+        }, {
+          title: "Stock Market Email Newsletter",
+          tag: "Automation / Finance",
+          description: "Automated market summary and insights system delivering curated financial analysis directly to subscribers' inboxes."
+        }].map(project => <Link key={project.title} to="/projects" className="group block rounded-lg border border-border bg-card p-6 transition-colors hover:border-primary/30">
               <div className="flex items-start justify-between gap-4">
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
@@ -85,8 +69,7 @@ const Index = () => {
                 </div>
                 <ArrowRight className="mt-1 h-4 w-4 shrink-0 text-muted-foreground group-hover:text-primary transition-colors" />
               </div>
-            </Link>
-          ))}
+            </Link>)}
         </div>
       </section>
 
@@ -106,8 +89,6 @@ const Index = () => {
           matters.
         </p>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
