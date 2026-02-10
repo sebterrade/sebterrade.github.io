@@ -1,12 +1,21 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, Download, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 const Index = () => {
   return <div className="space-y-16">
       {/* Hero */}
       <section className="space-y-6 pt-8">
-        <p className="font-mono text-sm text-primary">Hi, I'm</p>
-        <h1 className="text-4xl font-bold leading-tight sm:text-5xl">Sebastien</h1>
+        <div className="flex items-center gap-6">
+          <Avatar className="h-24 w-24 border-2 border-border">
+            <AvatarImage src="/placeholder.svg" alt="Sebastien" />
+            <AvatarFallback className="text-2xl font-semibold">S</AvatarFallback>
+          </Avatar>
+          <div>
+            <p className="font-mono text-sm text-primary">Hi, I'm</p>
+            <h1 className="text-4xl font-bold leading-tight sm:text-5xl">Sebastien</h1>
+          </div>
+        </div>
         <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
           New grad software engineer passionate about building intelligent systems 
           that solve real-world problems. I combine strong engineering fundamentals 
