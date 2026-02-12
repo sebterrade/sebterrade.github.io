@@ -120,11 +120,7 @@ const Projects = () => {
               <div className="space-y-1">
                 <div className="flex items-center gap-3">
                   <h2 className="text-xl font-semibold">{project.title}</h2>
-                  {project.flagship && (
-                    <span className="rounded-full bg-primary/10 px-2.5 py-0.5 font-mono text-xs text-primary">
-                      flagship
-                    </span>
-                  )}
+
                 </div>
                 <span className="font-mono text-xs text-muted-foreground">
                   {project.tag}
