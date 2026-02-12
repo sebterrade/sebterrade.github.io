@@ -23,18 +23,12 @@ const Resume = () => {
         </div>
       </section>
 
-      <section className="rounded-lg border border-border bg-muted/30 p-8 text-center">
-        <div className="space-y-3">
-          <p className="text-lg font-medium text-foreground">Resume Preview</p>
-          <p className="text-sm text-muted-foreground">
-            Upload your resume as <code className="font-mono text-xs bg-secondary px-1.5 py-0.5 rounded">public/resume.pdf</code> to 
-            enable the download and preview features.
-          </p>
-          <p className="text-sm text-muted-foreground">
-            Once uploaded, your resume will be available for download and can be 
-            embedded directly on this page.
-          </p>
-        </div>
+      <section className="overflow-hidden rounded-lg border border-border">
+        <iframe
+          src="/resume.pdf"
+          title="Resume"
+          className="h-[80vh] w-full"
+        />
       </section>
     </div>
   );

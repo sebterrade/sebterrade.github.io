@@ -1,11 +1,11 @@
 const technicalSkills = [
   {
     category: "Languages",
-    items: ["Python", "TypeScript", "JavaScript", "Java", "SQL", "C++"],
+    items: ["Python", "TypeScript", "Java", "SQL", "C++"],
   },
   {
     category: "Frameworks & Libraries",
-    items: ["React", "FastAPI", "Node.js", "LangChain", "Pandas", "NumPy"],
+    items: ["React", "FastAPI", "Node.js", "Pandas", "NumPy"],
   },
   {
     category: "AI / ML",
@@ -17,7 +17,7 @@ const technicalSkills = [
   },
   {
     category: "Tools",
-    items: ["Git", "Linux", "VS Code", "Jupyter", "Figma", "Jira"],
+    items: ["Git", "Linux", "VS Code", "Jupyter", "Figma"],
   },
 ];
 

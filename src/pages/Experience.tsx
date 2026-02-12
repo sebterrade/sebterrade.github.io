@@ -1,43 +1,34 @@
 const experiences = [
   {
     role: "Software Engineering Intern",
-    company: "Company Name",
-    period: "Jun 2024 – Aug 2024",
-    description:
-      "Contributed to core platform services, working across the stack to improve reliability and developer experience.",
+    company: "Ontario Power Generation",
+    period: "May 2024 – August 2025",
     highlights: [
-      "Designed and implemented a monitoring dashboard that reduced incident response time by 30%",
-      "Collaborated with cross-functional teams to define API contracts and data models",
-      "Presented technical proposals to senior engineers and product managers",
-      "Owned end-to-end delivery of a feature used by 10K+ daily active users",
+      "Built and maintained the Python and SQL backend for Nexus, an internal application that combines data from 10+ databases for system engineers, reducing manual cross-system lookups by 10+ hours per week.",
+      "Wrote and optimized SQL queries to join, filter, and reconcile work orders, equipment status, training records, and system health data across multiple legacy databases.",
+      "Built multiple internal applications to track equipment KPIs, performance targets, and historical trends for engineering reliability reviews.",
     ],
   },
   {
-    role: "Research Assistant",
-    company: "University Lab",
-    period: "Jan 2023 – May 2024",
-    description:
-      "Led applied research in NLP and knowledge graph construction, bridging academic rigor with practical engineering.",
+    role: "Software and Electronics Project Lead",
+    company: "Queen’s VEX U Robotics Team",
+    period: "September 2022 – September 2024",
     highlights: [
-      "Built and maintained data pipelines processing 100K+ documents for research experiments",
-      "Published findings on graph-based retrieval methods for domain-specific question answering",
-      "Mentored two junior researchers on best practices for reproducible ML experiments",
-      "Communicated technical findings to non-technical stakeholders in weekly reviews",
+      "Led a team of 5 in designing and implementing an Odometry PCB, improving robot navigation accuracy.",
+      "Designed and implemented robot motion algorithms, improved camera processing, and developed a Jetson Nano PCB for enhanced visual recognition, contributing to a quarter-final finish at the VEX U Robotics Worlds.",
     ],
   },
   {
-    role: "Teaching Assistant",
-    company: "University CS Department",
-    period: "Sep 2022 – Dec 2023",
-    description:
-      "Supported instruction for core computer science courses, helping students develop strong fundamentals.",
+    role: "AI Research Associate",
+    company: "Ingenuity Labs Research Institute",
+    period: "September 2023 – December 2023",
     highlights: [
-      "Held weekly office hours for 200+ students across data structures and algorithms courses",
-      "Developed supplementary materials that improved average exam scores by 12%",
-      "Received top-rated TA feedback for clarity and approachability",
+      "Developed neural networks using real-life road accident data to identify patterns and improve road safety.",
+      "Classified cyclist-related incidents with Python, uncovering key accident causes and providing insights for safety enhancements.",
     ],
   },
 ];
+
 
 const Experience = () => {
   return (
@@ -45,8 +36,7 @@ const Experience = () => {
       <section className="space-y-4">
         <h1 className="text-3xl font-bold">Work Experience</h1>
         <p className="text-muted-foreground">
-          Real-world engineering experience emphasizing systems thinking, ownership, 
-          and clear communication.
+          Engineering and Software experience from internships, design team work and research.
         </p>
       </section>
 
@@ -71,9 +61,7 @@ const Experience = () => {
                   </span>
                 </div>
               </div>
-              <p className="text-sm leading-relaxed text-muted-foreground">
-                {exp.description}
-              </p>
+
               <ul className="space-y-1.5">
                 {exp.highlights.map((h) => (
                   <li
