@@ -1,30 +1,31 @@
 const experiences = [
   {
-    role: "Software Engineering Intern",
+    role: "Data Engineering Intern",
     company: "Ontario Power Generation",
     period: "May 2024 – August 2025",
     highlights: [
-      "Built and maintained the Python and SQL backend for Nexus, an internal application that combines data from 10+ databases for system engineers, reducing manual cross-system lookups by 10+ hours per week.",
-      "Wrote and optimized SQL queries to join, filter, and reconcile work orders, equipment status, training records, and system health data across multiple legacy databases.",
-      "Built multiple internal applications to track equipment KPIs, performance targets, and historical trends for engineering reliability reviews.",
+      "Built a centralized relational database on Azure servers using Python and T-SQL, combining data from 10+ databases into one internal platform for over 200 engineers.",
+      "Engineered complex data pipelines to securely join and transform sensitive nuclear operations data.",
+      "Deployed internal tracking applications to monitor key metrics for WANO and IAEA audits, slashing manual data lookup time by 90% (saving ~$50,000/week) compared to the old system.",
     ],
   },
   {
-    role: "Software and Electronics Project Lead",
-    company: "Queen’s VEX U Robotics Team",
-    period: "September 2022 – September 2024",
-    highlights: [
-      "Led a team of 5 in designing and implementing an Odometry PCB, improving robot navigation accuracy.",
-      "Designed and implemented robot motion algorithms, improved camera processing, and developed a Jetson Nano PCB for enhanced visual recognition, contributing to a quarter-final finish at the VEX U Robotics Worlds.",
-    ],
-  },
-  {
-    role: "AI Research Associate",
+    role: "AI/Data Science Research Associate",
     company: "Ingenuity Labs Research Institute",
     period: "September 2023 – December 2023",
     highlights: [
-      "Developed neural networks using real-life road accident data to identify patterns and improve road safety.",
-      "Classified cyclist-related incidents with Python, uncovering key accident causes and providing insights for safety enhancements.",
+      "Engineered automated video preprocessing pipelines in Python (Pandas, NumPy) to clean and normalize 3,000 real-world dashcam videos (436,000+ frames) for machine learning.",
+      "Supported the training and optimization of predictive neural networks using PyTorch, contributing to a model that achieved a 70.8% accuracy rate in cyclist collision anticipation.",
+    ],
+  },
+  {
+    role: "Robotics Project Lead",
+    company: "Queen’s VEX U Robotics Team",
+    period: "September 2022 – September 2024",
+    highlights: [
+      "Led a 5-person engineering team through the design and implementation of an Odometry PCB, securing a quarter-final finish at the VEX U World Championship.",
+      "Engineered motion control algorithms and PID control to optimize robot movement using C/C++ and Rust.",
+      "Architected a high-performance computer vision pipeline on a Jetson Nano to process live camera feeds for object detection.",
     ],
   },
 ];

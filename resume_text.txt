@@ -1,0 +1,46 @@
+Sebastien TerradeToronto, ON|seb.terrade99@gmail.com|(905) 706-4949|LinkedIn
+Education
+Queen’s UniversityKingston, ON
+B.S. Computer Engineering Graduating April 2026
+• Academics:4.15/4.3 GPA (97%) – Dean’s Scholar
+• Accomplishments:1st Place AI Collective KingHacks Hackathon ($500), 3rd Place Next Generation of Medical
+Simulation Hackathon ($1500)
+• Relevant Courses:AI & Data Science, Data Analytics, Database Systems, ML & DL, Operating Systems
+Nanyang T echnological University– Exchange Program Singapore|January 2024 – May 2024
+Employment and Related Experience
+Data Engineering Intern– Ontario Power Generation May 2024 – August 2025
+• Built a centralized relational database on Azure servers usingPythonandT-SQL, that combines data from 10+
+databases into one internal platform for over 200 engineers.
+• Engineered complex data pipelines to securely join & transform sensitive nuclear operations data, utilizing advanced
+indexing strategies and consistent data models to ensure data integrity and standardization across systems.
+• Deployed internal data tracking applications to monitor key performance metrics, reinforcing strict reporting
+standards for WANO and IAEA audits.
+• Slashed manual data lookup time for engineers by 90% (saving roughly 4 hours/week per engineer or$50,000/week)
+in comparison to old system.
+AI/Data Science Research Associate– Ingenuity Labs September 2023 – December 2023
+• Engineered automated video preprocessing pipelines inPython(Pandas, NumPy) to clean, temporally crop, and
+normalize 3,000 real-world dashcam videos (436,000+ frames) for machine learning ingestion.
+• Supported the training and optimization of predictive neural networks usingPyT orch, contributing to a model
+that achieved a 70.8% accuracy rate in cyclist collision anticipation to uncover safety patterns.
+Robotics Project Lead– Queen’s VEX U Robotics Team September 2022 – September 2024
+• Led a 5 person engineering team through the design and implementation of an Odometry PCB, managing weekly
+sprints and technical requirements to secure a quarter-final finish at the VEX U World Championship.
+• Engineered motion control algorithms and PID control to optimize robot movement, usingC/C++andRust.
+• Architected a high performance computer vision pipeline on a Jetson Nano to process live camera feeds, train robot
+on object detection and enable live decision making.
+Projects
+GraphRAG API for Clinical Guidelines– AI Startup ALIRA September 2025 – Present
+• Designed and implemented a REST API (F astAPI) powered by GraphRAG to improve clinical guideline retrieval
+accuracy by 10% over traditional vector-based RAG on medical record queries.
+• Built an automatedPythoningestion and transformation pipeline to convert large unstructured medical
+documents into a structuredNeo4jknowledge graph, with 100% citation traceability.
+OmniCast: Interactive AI Podcast PlatformJanuary 2026
+• Engineered a real-time conversational knowledge platform leveragingRAGto dynamically transform user queries
+and source documents into a live and interruptible podcast-like stream.
+• IntegratedBackboard.iofor complex conversation threading and context persistence, coupled withElevenLabs
+APIsto deliver low-latency, multi-host text-to-speech (TTS) output.
+Technical Skills & Interests
+Languages & Tools: Python, SQL, C/C++, Java, Git, CI/CD, Linux, REST APIs
+Data Systems: PostgreSQL, T-SQL, PowerBI, JSON, Parquet, Pandas, Supabase
+AI/ML: PyTorch, GraphRAG, RAG, Data Preprocessing, Prompt Engineering
+Interests: Learning Languages, Volleyball, Stock Trading, Chess, Traveling

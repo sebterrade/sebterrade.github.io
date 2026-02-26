@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Download, Mail, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+
 const Index = () => {
   return <div className="space-y-16">
     {/* Hero */}
@@ -17,10 +18,10 @@ const Index = () => {
         </Avatar>
       </div>
       <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
-        Computer engineering student with hands-on experience building software
-        through internships, design teams, and hackathons. Driven to create
-        products with real impact while actively seeking new challenges to grow
-        as an engineer.
+        Computer engineering student and aspiring Data Engineer with a strong interest in AI.
+        Experienced in building high performance data pipelines, predictive models, and
+        interactive AI applications through internships, design teams, and hackathons. Driven to
+        create scalable data solutions with real impact.
       </p>
       <div className="flex flex-wrap gap-3 pt-2">
         <Button asChild>
@@ -94,31 +95,27 @@ const Index = () => {
       <ul className="space-y-2">
         <li className="flex items-start gap-2 text-sm leading-relaxed text-muted-foreground">
           <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-          Computer engineering student with a strong technical foundation and work ethic
+          Computer engineering student with a strong technical foundation in software and data systems
         </li>
         <li className="flex items-start gap-2 text-sm leading-relaxed text-muted-foreground">
           <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-          Interest in building software and products that have a real impact
+          Interest in building robust data architectures and AI products that have a real impact
         </li>
         <li className="flex items-start gap-2 text-sm leading-relaxed text-muted-foreground">
           <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-          Hands-on technical experience through internships, design teams, hackathons, and school/personal projects
+          Hands-on technical experience with high-performance data pipelines, predictive modeling, and intelligent agents
         </li>
         <li className="flex items-start gap-2 text-sm leading-relaxed text-muted-foreground">
           <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-          Proven ability to learn quickly and take ownership, supported by strong academic performance
+          Proven ability to learn quickly and take ownership, supported by strong academic performance (4.15/4.3 GPA)
         </li>
         <li className="flex items-start gap-2 text-sm leading-relaxed text-muted-foreground">
           <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-          Leadership and project management experience
+          Leadership and project management experience as Robotics Team Lead
         </li>
         <li className="flex items-start gap-2 text-sm leading-relaxed text-muted-foreground">
           <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
           Strong communication and teamwork skills, able to explain complex technical concepts clearly to technical and non-technical audiences
-        </li>
-        <li className="flex items-start gap-2 text-sm leading-relaxed text-muted-foreground">
-          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-          Actively seek challenges outside of coursework to continue growing and improving as an engineer
         </li>
       </ul>
     </section>

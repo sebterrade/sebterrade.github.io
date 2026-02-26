@@ -1,19 +1,19 @@
 const technicalSkills = [
   {
     category: "Languages",
-    items: ["Python", "TypeScript", "Java", "SQL", "C++"],
+    items: ["Python", "TypeScript", "SQL", "T-SQL", "C/C++", "Java"],
   },
   {
     category: "Frameworks & Libraries",
-    items: ["React", "FastAPI", "Node.js", "Pandas", "NumPy"],
+    items: ["PyTorch", "React", "FastAPI", "Node.js", "Pandas", "NumPy"],
   },
   {
     category: "AI / ML",
-    items: ["LLMs", "RAG", "NLP", "Knowledge Graphs", "Embeddings", "Prompt Engineering"],
+    items: ["GraphRAG", "RAG", "Data Preprocessing", "LLMs", "Knowledge Graphs", "Prompt Engineering"],
   },
   {
     category: "Systems & Infrastructure",
-    items: ["PostgreSQL", "Neo4j", "Docker", "AWS", "CI/CD", "REST APIs"],
+    items: ["PostgreSQL", "Supabase", "PowerBI", "Parquet", "Neo4j", "Docker", "AWS", "CI/CD", "REST APIs"],
   },
   {
     category: "Tools",

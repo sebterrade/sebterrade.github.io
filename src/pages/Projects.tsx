@@ -47,7 +47,7 @@ const projects: Project[] = [
       "Implemented metadata retention and citation tracking within the knowledge graph to ensure every result can be traced back to its original source document",
       "Evaluated system performance using benchmark datasets and LLM based evaluation, comparing our GraphRAG approach against a baseline vector RAG system",
     ],
-    tools: ["Python", "REST API", "GraphRAG", "CI/CD", "LLM", "Prompt Engineering", "AWS"],
+    tools: ["Python", "FastAPI", "Neo4j", "REST API", "GraphRAG", "CI/CD", "LLM", "Prompt Engineering", "AWS"],
     outcomes: [
       "Project in progress, expected completion date Q2 2026",
     ],
